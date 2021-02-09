@@ -2,24 +2,79 @@
 body {
   background-image: url("/images/bg-pattern-bottom.svg"), url("/images/bg-pattern-top.svg");
   background-repeat: no-repeat;
-  background-position: 150% -40%, -50% 50%;
+  background-position: 140% -75%, -50% 75%;
   background-color: #19a2ae;
   overflow: hidden;
 }
 
-body .profile-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.profile-card {
+  background-color: white;
+  background-image: url("/images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  border-radius: 5%;
   position: relative;
-  width: 1440px;
-  height: 900px;
-  border: 3px solid red;
+  margin: auto;
+  top: 250px;
+  width: 330px;
+  height: 350px;
+  -webkit-box-shadow: 30px 30px 100px -50px #2d3248;
+          box-shadow: 30px 30px 100px -50px #2d3248;
+}
+
+.profile-card .Victor {
+  position: absolute;
+  margin: auto;
+  top: 90px;
+  left: 115px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.desc {
+  position: relative;
+  margin: auto;
+  width: 325px;
+  height: 140px;
+  top: 100px;
+}
+
+.desc .data,
+.desc th,
+.desc td {
+  border: 1px solid red;
+  width: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 5px;
+}
+
+.desc .data #name,
+.desc th #name,
+.desc td #name {
+  font-weight: 700;
+}
+
+.desc .data #age,
+.desc th #age,
+.desc td #age {
+  font-weight: 400;
+}
+
+.desc .data #city,
+.desc th #city,
+.desc td #city {
+  font-weight: 400;
+}
+
+.desc .data #nr,
+.desc th #nr,
+.desc td #nr {
+  font-weight: 700;
+}
+
+.desc .data #info,
+.desc th #info,
+.desc td #info {
+  font-weight: 400;
 }
 /*# sourceMappingURL=global.css.map */
