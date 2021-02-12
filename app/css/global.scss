@@ -4,7 +4,7 @@
 body {
     background-image: url("/images/bg-pattern-bottom.svg"), url("/images/bg-pattern-top.svg");
     background-repeat: no-repeat;
-    background-position: 140% -75%, -50% 75%;
+    background-position: 150% -95%, -60% 95%;
     background-color: $darkcyan;
     overflow: hidden;
 }
@@ -64,4 +64,12 @@ body {
         text-align: center;
         font-family: "Kumbh", sans-serif;
     }
+}
+
+.attribution{
+    font-family: "Kumbh", sans-serif;
+    position: absolute;
+    width: 1440px;
+    top: 850px;
+    text-align: center;
 }
