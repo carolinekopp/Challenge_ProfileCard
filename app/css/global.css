@@ -34,47 +34,40 @@ body {
 .desc {
   position: relative;
   margin: auto;
-  width: 325px;
-  height: 140px;
+  width: 330px;
+  height: 60px;
   top: 100px;
+  border-bottom: 1px solid #e6e6e6;
 }
 
-.desc .data,
-.desc th,
-.desc td {
-  border: 1px solid red;
-  width: 100%;
-  font-family: "Kumbh Sans", sans-serif;
-  padding: 5px;
+.desc .name {
+  font-family: "Kumbh", sans-serif;
+  text-align: center;
 }
 
-.desc .data #name,
-.desc th #name,
-.desc td #name {
-  font-weight: 700;
+.desc2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  position: relative;
+  margin: auto;
+  width: 325px;
+  height: 70px;
+  top: 120px;
 }
 
-.desc .data #age,
-.desc th #age,
-.desc td #age {
-  font-weight: 400;
-}
-
-.desc .data #city,
-.desc th #city,
-.desc td #city {
-  font-weight: 400;
-}
-
-.desc .data #nr,
-.desc th #nr,
-.desc td #nr {
-  font-weight: 700;
-}
-
-.desc .data #info,
-.desc th #info,
-.desc td #info {
-  font-weight: 400;
+.desc2 .box1,
+.desc2 .box2,
+.desc2 .box3 {
+  width: 105px;
+  height: 70px;
+  text-align: center;
+  font-family: "Kumbh", sans-serif;
 }
 /*# sourceMappingURL=global.css.map */
